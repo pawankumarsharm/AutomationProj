@@ -1,0 +1,51 @@
+Given I have navigated to the SLS Website
+25-Nov-2021-08:16:06,373 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+25-Nov-2021-08:16:06,474 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+25-Nov-2021-08:16:09,545 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+25-Nov-2021-08:16:09,907 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+-> done: SelectFranceSteps.GivenIHaveNavigatedToTheSLSWebsite() (9.6s)
+25-Nov-2021-08:16:15,811 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+When I select the  France provided  and click on the next button
+25-Nov-2021-08:16:15,818 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+25-Nov-2021-08:16:19,896 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+25-Nov-2021-08:16:19,946 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+-> done: SelectFranceSteps.WhenISelectTheProvidedAndClickOnTheNextButton("France") (4.3s)
+25-Nov-2021-08:16:20,120 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+Then I select Cartidge/Filter check box and proceed further till data validation
+25-Nov-2021-08:16:20,122 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+25-Nov-2021-08:16:21,684 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+25-Nov-2021-08:16:22,046 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+25-Nov-2021-08:16:22,046 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+25-Nov-2021-08:16:23,289 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+-> done: SelectFranceSteps.ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation() (3.2s)
+25-Nov-2021-08:16:23,290 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+And I have 14807-96-6 and Talc non fibreux to filter the product and I filter the product
+25-Nov-2021-08:16:23,303 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+25-Nov-2021-08:16:23,342 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 14807-96-6 in the Search field to filter the contaminants
+-> done: SelectFranceSteps.ThenIHaveAndToFilterTheProductAndIFilterTheProduct("14807-96-6", "Talc non fibreux") (0.3s)
+25-Nov-2021-08:16:23,556 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+Then I select the filtered products using the Cas 14807-96-6 or the Contaminants Value Talc non fibreux
+25-Nov-2021-08:16:23,558 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+25-Nov-2021-08:16:26,784 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+-> done: SelectFranceSteps.ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue("14807-96-6", "Talc non fibreux") (3.4s)
+25-Nov-2021-08:16:26,918 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+And Click on the next button
+25-Nov-2021-08:16:26,919 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+-> done: SelectFranceSteps.ThenClickOnTheNextButton() (0.1s)
+25-Nov-2021-08:16:27,015 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+Then I Filter the contaminants using the filter values No,,PAPR,,,14807-96-6 and
+25-Nov-2021-08:16:27,018 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+25-Nov-2021-08:16:31,029 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element (//label[@class='radioGroup-item-label' and text()='Non'])[1]
+25-Nov-2021-08:16:31,205 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectRespiratorType] - Setting the value of Respirator as PARP
+25-Nov-2021-08:16:31,336 [SelectFrance.Helpers.SupportingFunctions] [INFO] [FilterClass] - Value of Filter Class is Null.......Skipping Filter Class field
+25-Nov-2021-08:16:31,338 [SelectFrance.Helpers.SupportingFunctions] [INFO] [CartidgeType] - Value of Cartidge Type is Null.......Skipping Cartidge Type field
+25-Nov-2021-08:16:31,339 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+25-Nov-2021-08:16:31,340 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+-> done: SelectFranceSteps.ThenIFilterTheContaminantsUsingTheFilterValuesAnd("No", "", "PAPR", "", "", "14807-96-6", "") (5.4s)
+25-Nov-2021-08:16:32,465 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+And I do the final validation of the elements with the serial no. 7 , 14807-96-6,France, and 3
+-> error: Elements number mismatched... Expecting total number to be 3 but was 18
+25-Nov-2021-08:16:32,490 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 3 but was 18
+25-Nov-2021-08:16:32,490 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+SCREENSHOT[ file:///C:\Users\PAWAN KUMAR SHARMA\source\repos\SelectFrance\SelectFrance\\Screenshots\I do the final validation of the elements with the serial no.jpg ]SCREENSHOT
+25-Nov-2021-08:16:36,821 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 3 but was 18.......Dumping result to the Result Excel File

@@ -1,0 +1,60 @@
+Given I have navigated to the SLS Website
+25-Nov-2021-07:03:12,524 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+25-Nov-2021-07:03:12,820 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+25-Nov-2021-07:03:16,931 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+25-Nov-2021-07:03:17,178 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+-> done: SelectFranceSteps.GivenIHaveNavigatedToTheSLSWebsite() (10.8s)
+25-Nov-2021-07:03:23,051 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+When I select the  France provided  and click on the next button
+25-Nov-2021-07:03:23,057 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+25-Nov-2021-07:03:27,196 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+25-Nov-2021-07:03:27,245 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+-> done: SelectFranceSteps.WhenISelectTheProvidedAndClickOnTheNextButton("France") (4.4s)
+25-Nov-2021-07:03:27,420 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+Then I select Cartidge/Filter check box and proceed further till data validation
+25-Nov-2021-07:03:27,422 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+25-Nov-2021-07:03:28,996 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+25-Nov-2021-07:03:29,393 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+25-Nov-2021-07:03:29,393 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+25-Nov-2021-07:03:30,173 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+-> done: SelectFranceSteps.ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation() (2.8s)
+25-Nov-2021-07:03:30,174 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+And I have 10102-44-0 and Dioxyde d'azote to filter the product and I filter the product
+25-Nov-2021-07:03:30,177 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+25-Nov-2021-07:03:30,253 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 10102-44-0 in the Search field to filter the contaminants
+-> done: SelectFranceSteps.ThenIHaveAndToFilterTheProductAndIFilterTheProduct("10102-44-0", "Dioxyde d'azote") (0.4s)
+25-Nov-2021-07:03:30,549 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+Then I select the filtered products using the Cas 10102-44-0 or the Contaminants Value Dioxyde d'azote
+25-Nov-2021-07:03:30,551 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+25-Nov-2021-07:03:35,240 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+-> done: SelectFranceSteps.ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue("10102-44-0", "Dioxyde d'azote") (4.9s)
+25-Nov-2021-07:03:35,421 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+And Click on the next button
+25-Nov-2021-07:03:35,422 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+-> done: SelectFranceSteps.ThenClickOnTheNextButton() (0.1s)
+25-Nov-2021-07:03:35,564 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+Then I Filter the contaminants using the filter values ,,,,,10102-44-0 and 3M n'a pas de filtre approprié pour un ou plusieurs de vos contaminants. Les respirateurs à adduction d'air peuvent être appropriés pour aider à réduire l'exposition en fonction du facteur de protection du respirateur choisi. Veuillez consulter les « Ressources » ci-dessous ou contactez le + 33 (0)1 30 31 65 96 pour plus d'informations.
+25-Nov-2021-07:03:35,569 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - 3M n'a pas de filtre approprié pour un ou plusieurs de vos contaminants. Les respirateurs à adduction d'air peuvent être appropriés pour aider à réduire l'exposition en fonction du facteur de protection du respirateur choisi. Veuillez consulter les « Ressources » ci-dessous ou contactez le + 33 (0)1 30 31 65 96 pour plus d'informations.
+25-Nov-2021-07:03:35,570 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - No filters available for one or more of your contaminants
+25-Nov-2021-07:03:35,571 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - No filters available for one or more of your contaminants
+-> done: SelectFranceSteps.ThenIFilterTheContaminantsUsingTheFilterValuesAnd("", "", "", "", "", "10102-44-0", "3M n'a pas de fil...") (1.0s)
+25-Nov-2021-07:03:36,583 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+And I do the final validation of the elements with the serial no. 1 , 10102-44-0,France,3M n'a pas de filtre approprié pour un ou plusieurs de vos contaminants. Les respirateurs à adduction d'air peuvent être appropriés pour aider à réduire l'exposition en fonction du facteur de protection du respirateur choisi. Veuillez consulter les « Ressources » ci-dessous ou contactez le + 33 (0)1 30 31 65 96 pour plus d'informations. and 0
+25-Nov-2021-07:03:36,587 [SelectFrance.Helpers.CartidgeValidation] [INFO] [ValidateListItems] - 3M does not have appropriate filters for one or more of your contaminants
+25-Nov-2021-07:03:36,588 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='noResults-message']
+-> error:   String lengths are both 338. Strings differ at index 250.
+  Expected: "...oisi. Veuillez consulter les « Ressources » ci-dessous ou ..."
+  But was:  "...oisi. Veuillez consulter les « Ressources » ci-dessous ou ..."
+  --------------------------------------------^
+
+25-Nov-2021-07:03:38,426 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] -   String lengths are both 338. Strings differ at index 250.
+  Expected: "...oisi. Veuillez consulter les « Ressources » ci-dessous ou ..."
+  But was:  "...oisi. Veuillez consulter les « Ressources » ci-dessous ou ..."
+  --------------------------------------------^
+
+25-Nov-2021-07:03:38,427 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+25-Nov-2021-07:03:43,454 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is   String lengths are both 338. Strings differ at index 250.
+  Expected: "...oisi. Veuillez consulter les « Ressources » ci-dessous ou ..."
+  But was:  "...oisi. Veuillez consulter les « Ressources » ci-dessous ou ..."
+  --------------------------------------------^
+.......Dumping result to the Result Excel File

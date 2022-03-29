@@ -1,0 +1,1033 @@
+12-Nov-2021-13:17:11,734 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:17:11,799 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+12-Nov-2021-13:17:14,302 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+12-Nov-2021-13:17:14,435 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:17:59,831 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:17:59,850 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:18:03,959 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:18:04,007 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:18:04,152 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:18:04,154 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:18:14,678 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:18:14,895 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:18:14,896 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:18:16,043 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:18:16,044 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:18:16,046 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:18:16,139 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 10102-44-0 in the Search field to filter the contaminants
+12-Nov-2021-13:18:16,352 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:18:16,354 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:18:36,435 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:18:36,581 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:18:36,582 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:18:36,717 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:18:36,721 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - 3M n'a pas de filtre approprié pour un ou plusieurs de vos contaminants. Les respirateurs à adduction d'air peuvent être appropriés pour aider à réduire l'exposition en fonction du facteur de protection du respirateur choisi. Veuillez consulter les « Ressources » ci-dessous ou contactez le + 33 (0)1 30 31 65 96 pour plus d'informations.
+12-Nov-2021-13:18:36,722 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - No filters available for one or more of your contaminants
+12-Nov-2021-13:18:36,722 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - No filters available for one or more of your contaminants
+12-Nov-2021-13:18:37,732 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:18:37,748 [SelectFrance.Helpers.CartidgeValidation] [INFO] [ValidateListItems] - 3M does not have appropriate filters for one or more of your contaminants
+12-Nov-2021-13:18:37,750 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='noResults-message']
+12-Nov-2021-13:18:40,052 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] -   String lengths are both 338. Strings differ at index 250.
+  Expected: "...oisi. Veuillez consulter les « Ressources » ci-dessous ou ..."
+  But was:  "...oisi. Veuillez consulter les « Ressources » ci-dessous ou ..."
+  --------------------------------------------^
+
+12-Nov-2021-13:18:40,054 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:18:45,419 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is   String lengths are both 338. Strings differ at index 250.
+  Expected: "...oisi. Veuillez consulter les « Ressources » ci-dessous ou ..."
+  But was:  "...oisi. Veuillez consulter les « Ressources » ci-dessous ou ..."
+  --------------------------------------------^
+.......Dumping result to the Result Excel File
+12-Nov-2021-13:18:45,437 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:18:45,442 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:19:09,935 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:19:09,936 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:19:14,075 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:19:14,124 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:19:14,242 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:19:14,243 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:19:16,445 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:19:16,695 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:19:16,696 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:19:17,537 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:19:17,538 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:19:17,539 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:19:17,576 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 14807-96-6 in the Search field to filter the contaminants
+12-Nov-2021-13:19:17,735 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:19:17,736 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:19:36,722 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:19:36,901 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:19:36,902 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:19:37,088 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:19:37,089 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:19:46,061 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:19:46,063 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:19:46,064 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:19:47,188 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:19:47,215 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 17 but was 18
+12-Nov-2021-13:19:47,215 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:19:52,672 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 17 but was 18.......Dumping result to the Result Excel File
+12-Nov-2021-13:19:52,678 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:19:52,680 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:20:17,002 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:20:17,004 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:20:21,164 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:20:21,233 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:20:21,358 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:20:21,359 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:20:23,840 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:20:24,110 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:20:24,110 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:20:24,930 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:20:24,932 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:20:24,936 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:20:24,976 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 14807-96-6 in the Search field to filter the contaminants
+12-Nov-2021-13:20:25,141 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:20:25,142 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:20:44,459 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:20:44,595 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:20:44,596 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:20:44,709 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:20:44,711 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:20:50,907 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element (//label[@class='radioGroup-item-label' and text()='Oui'])[1]
+12-Nov-2021-13:20:51,117 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:20:51,118 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:20:52,295 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:20:52,333 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 15 but was 16
+12-Nov-2021-13:20:52,334 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:20:57,173 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 15 but was 16.......Dumping result to the Result Excel File
+12-Nov-2021-13:20:57,179 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:20:57,181 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:21:21,499 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:21:21,501 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:21:25,643 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:21:25,688 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:21:25,825 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:21:25,826 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:21:27,471 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:21:27,675 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:21:27,675 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:21:28,527 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:21:28,528 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:21:28,530 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:21:28,620 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 14807-96-6 in the Search field to filter the contaminants
+12-Nov-2021-13:21:28,788 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:21:28,789 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:21:51,128 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:21:51,260 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:21:51,261 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:21:51,385 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:21:51,386 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:22:01,644 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element (//label[@class='radioGroup-item-label' and text()='Non'])[1]
+12-Nov-2021-13:22:01,777 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:22:01,777 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:22:02,904 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:22:02,921 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 17 but was 18
+12-Nov-2021-13:22:02,921 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:22:07,427 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 17 but was 18.......Dumping result to the Result Excel File
+12-Nov-2021-13:22:07,438 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:22:07,438 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:22:33,652 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:22:33,652 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:22:37,788 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:22:37,830 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:22:37,959 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:22:37,960 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:22:40,509 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:22:40,701 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:22:40,702 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:22:41,553 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:22:41,553 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:22:41,554 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:22:41,590 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 14807-96-6 in the Search field to filter the contaminants
+12-Nov-2021-13:22:41,720 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:22:41,720 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:23:01,602 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:23:01,731 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:23:01,732 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:23:01,858 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:23:01,859 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:23:11,367 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element (//label[@class='radioGroup-item-label' and text()='Non'])[1]
+12-Nov-2021-13:23:11,501 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectRespiratorType] - Setting the value of Respirator as Disposable
+12-Nov-2021-13:23:19,577 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Disposable']"}
+  (Session info: chrome=95.0.4638.69)
+12-Nov-2021-13:23:19,578 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:23:24,269 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Disposable']"}
+  (Session info: chrome=95.0.4638.69).......Dumping result to the Result Excel File
+12-Nov-2021-13:23:24,271 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:23:24,271 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:23:49,952 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:23:49,953 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:23:54,092 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:23:54,147 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:23:54,273 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:23:54,273 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:23:57,234 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:23:57,427 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:23:57,428 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:23:58,757 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:23:58,758 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:23:58,759 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:23:58,805 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 14807-96-6 in the Search field to filter the contaminants
+12-Nov-2021-13:23:58,933 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:23:58,934 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:24:24,184 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+12-Nov-2021-13:24:24,185 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:24:28,843 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+12-Nov-2021-13:24:28,846 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:24:28,847 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:24:52,875 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:24:52,876 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:24:57,016 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:24:57,055 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:24:57,214 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:24:57,215 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:24:59,441 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:24:59,644 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:24:59,645 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:25:01,004 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:25:01,005 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:25:01,006 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:25:01,042 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 14807-96-6 in the Search field to filter the contaminants
+12-Nov-2021-13:25:01,164 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:25:01,165 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:25:20,818 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:25:20,939 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:25:20,939 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:25:21,051 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:25:21,052 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:25:34,195 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element (//label[@class='radioGroup-item-label' and text()='Non'])[1]
+12-Nov-2021-13:25:34,346 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectRespiratorType] - Setting the value of Respirator as PARP
+12-Nov-2021-13:25:42,366 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='PAPR']"}
+  (Session info: chrome=95.0.4638.69)
+12-Nov-2021-13:25:42,367 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:25:47,029 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='PAPR']"}
+  (Session info: chrome=95.0.4638.69).......Dumping result to the Result Excel File
+12-Nov-2021-13:25:47,031 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:25:47,032 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:26:09,881 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:26:09,884 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:26:14,060 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:26:14,123 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:26:14,226 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:26:14,227 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:26:16,379 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:26:16,577 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:26:16,578 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:26:17,877 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:26:17,878 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:26:17,879 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:26:17,921 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 118-74-1 in the Search field to filter the contaminants
+12-Nov-2021-13:26:18,039 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:26:18,040 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:26:38,392 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:26:38,528 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:26:38,529 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:26:38,647 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:26:38,648 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:26:46,570 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:26:46,571 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:26:46,571 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:26:47,686 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:26:47,708 [SelectFrance.Helpers.CartidgeValidation] [INFO] [ValidateListItems] - Elements number matched......Proceeding to match the elements
+12-Nov-2021-13:26:48,012 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:26:52,198 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - No Exception occured.......Dumping result to the Result Excel File
+12-Nov-2021-13:26:52,200 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:26:52,200 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:27:16,499 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:27:16,500 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:27:20,630 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:27:20,675 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:27:20,804 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:27:20,805 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:27:22,959 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:27:23,180 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:27:23,180 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:27:24,456 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:27:24,456 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:27:24,457 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:27:24,503 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 1332-21-4 in the Search field to filter the contaminants
+12-Nov-2021-13:27:24,626 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:27:24,627 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:27:49,788 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+12-Nov-2021-13:27:49,789 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:27:54,229 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+12-Nov-2021-13:27:54,232 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:27:54,233 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:28:19,863 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:28:19,863 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:28:24,008 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:28:24,049 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:28:24,189 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:28:24,190 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:28:26,998 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:28:27,222 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:28:27,223 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:28:28,512 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:28:28,513 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:28:28,514 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:28:28,581 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 10028-15-6 in the Search field to filter the contaminants
+12-Nov-2021-13:28:28,717 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:28:28,718 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:28:53,824 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+12-Nov-2021-13:28:53,825 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:28:58,420 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+12-Nov-2021-13:28:58,424 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:28:58,434 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:28:59,003 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:28:59,004 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:29:17,756 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:29:17,805 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:29:17,949 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:29:17,950 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:29:28,012 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:29:28,238 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:29:28,239 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:29:29,077 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:29:29,078 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:29:29,079 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:29:29,120 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-42-5 in the Search field to filter the contaminants
+12-Nov-2021-13:29:29,257 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:29:29,258 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:29:49,501 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:29:49,627 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:29:49,627 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:29:49,733 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:29:49,734 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:30:14,943 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //div[@class='radioGroup-caption'] not found or no contaminates may be present in the webapplication.
+12-Nov-2021-13:30:14,946 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:30:19,609 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //div[@class='radioGroup-caption'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+12-Nov-2021-13:30:19,615 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:30:19,616 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:30:42,320 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:30:42,321 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:30:46,457 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:30:46,493 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:30:46,598 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:30:46,600 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:30:48,240 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:30:48,445 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:30:48,446 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:30:49,757 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:30:49,758 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:30:49,759 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:30:49,798 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-42-5 in the Search field to filter the contaminants
+12-Nov-2021-13:30:49,923 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:30:49,923 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:31:15,101 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+12-Nov-2021-13:31:15,102 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:31:19,657 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+12-Nov-2021-13:31:19,670 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:31:19,672 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:31:41,360 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:31:41,360 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:31:45,501 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:31:45,549 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:31:45,678 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:31:45,679 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:31:47,783 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:31:47,984 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:31:47,986 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:31:49,315 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:31:49,316 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:31:49,317 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:31:49,367 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-42-5 in the Search field to filter the contaminants
+12-Nov-2021-13:31:49,497 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:31:49,498 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:32:08,977 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:32:09,105 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:32:09,105 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:32:09,213 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:32:09,216 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:32:22,289 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element (//label[@class='radioGroup-item-label' and text()='Non'])[1]
+12-Nov-2021-13:32:22,425 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:32:22,426 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:32:23,577 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:32:23,598 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 16 but was 21
+12-Nov-2021-13:32:23,598 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:32:27,824 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 16 but was 21.......Dumping result to the Result Excel File
+12-Nov-2021-13:32:27,832 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:32:27,833 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:32:52,376 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:32:52,377 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:32:56,510 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:32:56,550 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:32:56,660 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:32:56,661 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:32:59,008 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:32:59,241 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:32:59,242 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:33:00,049 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:33:00,050 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:33:00,051 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:33:00,095 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-42-5 in the Search field to filter the contaminants
+12-Nov-2021-13:33:00,285 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:33:00,286 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:33:19,485 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:33:19,613 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:33:19,614 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:33:19,732 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:33:19,733 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:33:26,826 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element (//label[@class='radioGroup-item-label' and text()='Non'])[1]
+12-Nov-2021-13:33:34,975 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Reusable']"}
+  (Session info: chrome=95.0.4638.69)
+12-Nov-2021-13:33:34,975 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:33:39,725 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Reusable']"}
+  (Session info: chrome=95.0.4638.69).......Dumping result to the Result Excel File
+12-Nov-2021-13:33:39,732 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:33:39,733 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:34:02,768 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:34:02,769 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:34:06,917 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:34:06,962 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:34:07,097 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:34:07,097 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:34:09,900 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:34:10,138 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:34:10,139 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:34:11,475 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:34:11,476 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:34:11,477 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:34:11,530 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-42-5 in the Search field to filter the contaminants
+12-Nov-2021-13:34:11,671 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:34:11,672 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:34:36,809 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+12-Nov-2021-13:34:36,810 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:34:41,952 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+12-Nov-2021-13:34:41,954 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:34:41,956 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:35:05,617 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:35:05,617 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:35:09,782 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:35:09,822 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:35:09,948 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:35:09,949 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:35:11,797 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:35:12,004 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:35:12,005 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:35:13,313 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:35:13,314 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:35:13,314 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:35:13,351 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 3290-92-4 in the Search field to filter the contaminants
+12-Nov-2021-13:35:13,522 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:35:13,523 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:35:31,411 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:35:31,548 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:35:31,549 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:35:31,675 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:35:31,676 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:35:41,228 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:35:41,229 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:35:41,230 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:35:42,424 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:35:42,452 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 39 but was 45
+12-Nov-2021-13:35:42,452 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:35:47,572 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 39 but was 45.......Dumping result to the Result Excel File
+12-Nov-2021-13:35:47,592 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:35:47,592 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:36:12,398 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:36:12,399 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:36:16,543 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:36:16,587 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:36:16,714 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:36:16,715 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:36:18,918 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:36:19,168 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:36:19,169 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:36:19,984 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:36:19,987 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:36:19,988 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:36:20,027 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 108-95-2 in the Search field to filter the contaminants
+12-Nov-2021-13:36:20,176 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:36:20,177 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:36:42,049 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:36:42,203 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:36:42,204 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:36:42,339 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:36:42,340 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:36:50,958 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:36:50,958 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:36:50,959 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:36:52,095 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:36:52,116 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 39 but was 45
+12-Nov-2021-13:36:52,116 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:36:59,880 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 39 but was 45.......Dumping result to the Result Excel File
+12-Nov-2021-13:36:59,884 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:36:59,884 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:37:19,987 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:37:19,987 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:37:24,123 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:37:24,170 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:37:24,301 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:37:24,302 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:37:26,851 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:37:27,122 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:37:27,123 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:37:28,454 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:37:28,455 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:37:28,457 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:37:28,501 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 118-52-5 in the Search field to filter the contaminants
+12-Nov-2021-13:37:28,634 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:37:28,635 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:37:45,956 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:37:46,089 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:37:46,090 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:37:46,213 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:37:46,213 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:37:54,796 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:37:54,797 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:37:54,797 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:37:55,945 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:37:55,968 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 31 but was 37
+12-Nov-2021-13:37:55,969 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:38:00,967 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 31 but was 37.......Dumping result to the Result Excel File
+12-Nov-2021-13:38:00,978 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:38:00,979 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:38:24,535 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:38:24,536 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:38:28,697 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:38:28,751 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:38:28,919 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:38:28,920 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:38:30,987 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:38:31,226 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:38:31,227 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:38:32,036 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:38:32,037 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:38:32,038 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:38:32,084 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-01-6 in the Search field to filter the contaminants
+12-Nov-2021-13:38:32,255 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:38:32,256 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:38:51,467 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:38:51,597 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:38:51,598 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:38:51,720 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:38:51,721 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:38:56,355 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:38:56,355 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:38:56,356 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:38:57,496 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:38:57,523 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 19 but was 25
+12-Nov-2021-13:38:57,523 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:39:02,587 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 19 but was 25.......Dumping result to the Result Excel File
+12-Nov-2021-13:39:02,593 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:39:02,593 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:39:27,816 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:39:27,817 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:39:31,956 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:39:31,999 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:39:32,117 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:39:32,118 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:39:34,204 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:39:34,415 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:39:34,416 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:39:35,280 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:39:35,281 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:39:35,283 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:39:35,321 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 106-99-0 in the Search field to filter the contaminants
+12-Nov-2021-13:39:35,473 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:39:35,474 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:39:51,661 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:39:51,803 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:39:51,804 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:39:51,951 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:39:51,952 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:39:55,228 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:39:55,229 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:39:55,229 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:39:56,384 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:39:56,401 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 1 but was 3
+12-Nov-2021-13:39:56,401 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:40:07,862 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 1 but was 3.......Dumping result to the Result Excel File
+12-Nov-2021-13:40:07,864 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:40:07,865 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:40:32,366 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:40:32,367 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:40:36,510 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:40:36,553 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:40:36,690 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:40:36,690 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:40:38,551 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:40:38,753 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:40:38,753 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:40:39,634 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:40:39,635 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:40:39,636 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:40:39,673 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 121-44-8 in the Search field to filter the contaminants
+12-Nov-2021-13:40:39,820 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:40:39,821 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:41:02,581 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:41:02,718 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:41:02,719 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:41:02,841 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:41:02,842 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:41:11,458 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:41:11,459 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:41:11,459 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:41:12,587 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:41:12,606 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 17 but was 22
+12-Nov-2021-13:41:12,607 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:41:26,054 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 17 but was 22.......Dumping result to the Result Excel File
+12-Nov-2021-13:41:26,057 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:41:26,057 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:42:08,151 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:42:08,151 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:42:12,296 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:42:12,343 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:42:12,479 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:42:12,480 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:42:14,630 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:42:14,846 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:42:14,847 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:42:16,142 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:42:16,144 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:42:16,145 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:42:16,199 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7664-39-3 in the Search field to filter the contaminants
+12-Nov-2021-13:42:16,340 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:42:16,341 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:42:35,858 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:42:36,005 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:42:36,006 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:42:36,138 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:42:36,139 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:42:53,391 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:42:53,392 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:42:53,392 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:42:54,517 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:42:54,556 [SelectFrance.Helpers.CartidgeValidation] [INFO] [ValidateListItems] - Elements number matched......Proceeding to match the elements
+12-Nov-2021-13:42:54,756 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:43:03,314 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - No Exception occured.......Dumping result to the Result Excel File
+12-Nov-2021-13:43:03,319 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:43:03,320 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:43:25,835 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:43:25,836 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:43:29,980 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:43:30,018 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:43:30,129 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:43:30,130 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:43:32,293 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:43:32,497 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:43:32,497 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:43:33,795 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:43:33,797 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:43:33,798 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:43:33,842 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7726-95-6 in the Search field to filter the contaminants
+12-Nov-2021-13:43:33,990 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:43:33,991 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:43:51,960 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:43:52,091 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:43:52,091 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:43:52,212 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:43:52,215 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:43:57,422 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:43:57,423 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:43:57,423 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:43:58,559 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:43:58,598 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 7 but was 13
+12-Nov-2021-13:43:58,599 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:44:03,578 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 7 but was 13.......Dumping result to the Result Excel File
+12-Nov-2021-13:44:03,580 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:44:03,581 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:44:25,605 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:44:25,606 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:44:29,755 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:44:29,800 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:44:29,911 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:44:29,912 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:44:32,366 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:44:32,578 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:44:32,579 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:44:33,439 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:44:33,440 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:44:33,440 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:44:33,485 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7446-70-0 in the Search field to filter the contaminants
+12-Nov-2021-13:44:33,632 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:44:33,633 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:44:54,719 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:44:54,894 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:44:54,895 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:44:55,029 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:44:55,031 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:44:59,900 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:44:59,900 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:44:59,901 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:45:01,080 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:45:01,120 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 17 but was 22
+12-Nov-2021-13:45:01,121 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:45:08,377 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 17 but was 22.......Dumping result to the Result Excel File
+12-Nov-2021-13:45:08,382 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:45:08,383 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:45:32,358 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:45:32,359 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:45:36,500 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:45:36,548 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:45:36,661 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:45:36,662 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:45:38,553 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:45:38,781 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:45:38,782 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:45:39,609 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:45:39,610 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:45:39,611 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:45:39,644 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7440-61-1 in the Search field to filter the contaminants
+12-Nov-2021-13:45:39,799 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:45:39,802 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:45:58,308 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:45:58,440 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:45:58,441 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:45:58,543 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:45:58,544 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:46:11,956 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:46:11,957 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:46:11,957 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:46:13,081 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:46:13,101 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 11 but was 14
+12-Nov-2021-13:46:13,102 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:46:22,889 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 11 but was 14.......Dumping result to the Result Excel File
+12-Nov-2021-13:46:22,891 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:46:22,892 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:46:45,638 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:46:45,639 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:46:49,775 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:46:49,821 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:46:49,942 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:46:49,943 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:46:51,815 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:46:52,016 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:46:52,017 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:46:53,280 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:46:53,281 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:46:53,282 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:46:53,326 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7782-50-5 in the Search field to filter the contaminants
+12-Nov-2021-13:46:53,485 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:46:53,485 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:47:11,546 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:47:11,679 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:47:11,679 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:47:11,796 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:47:11,796 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:47:21,083 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:47:21,083 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:47:21,084 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:47:22,207 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:47:22,230 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 7 but was 13
+12-Nov-2021-13:47:22,231 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:47:29,946 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 7 but was 13.......Dumping result to the Result Excel File
+12-Nov-2021-13:47:29,950 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:47:29,951 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:47:53,111 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:47:53,112 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:47:57,250 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:47:57,287 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:47:57,399 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:47:57,400 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:47:59,584 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:47:59,816 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:47:59,817 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:48:00,667 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:48:00,668 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:48:00,670 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:48:00,718 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 64-18-6 in the Search field to filter the contaminants
+12-Nov-2021-13:48:00,849 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:48:00,850 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:48:20,024 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:48:20,169 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:48:20,170 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:48:20,293 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:48:20,294 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:48:25,834 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:48:25,835 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:48:25,836 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:48:26,980 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:48:26,999 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 8 but was 2
+12-Nov-2021-13:48:27,000 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:48:35,906 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 8 but was 2.......Dumping result to the Result Excel File
+12-Nov-2021-13:48:35,908 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:48:35,908 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:48:58,325 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:48:58,326 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:49:02,448 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:49:02,493 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:49:02,631 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:49:02,632 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:49:04,763 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:49:04,969 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:49:04,970 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:49:05,818 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:49:05,819 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:49:05,819 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:49:05,865 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7446-09-5 in the Search field to filter the contaminants
+12-Nov-2021-13:49:06,025 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:49:06,026 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:49:31,088 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+12-Nov-2021-13:49:31,089 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:49:43,218 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+12-Nov-2021-13:49:43,221 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:49:43,221 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:50:07,190 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:50:07,191 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:50:11,346 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:50:11,411 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:50:11,528 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:50:11,529 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:50:13,686 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:50:13,904 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:50:13,906 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:50:14,748 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:50:14,748 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:50:14,749 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:50:14,779 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 75-79-6 in the Search field to filter the contaminants
+12-Nov-2021-13:50:14,909 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:50:14,910 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:50:34,315 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:50:34,434 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:50:34,434 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:50:34,535 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:50:34,536 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:50:55,543 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:50:55,544 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:50:55,544 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:50:56,675 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:50:56,714 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 19 but was 20
+12-Nov-2021-13:50:56,715 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:51:01,307 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 19 but was 20.......Dumping result to the Result Excel File
+12-Nov-2021-13:51:01,329 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:51:01,329 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:51:26,548 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:51:26,549 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:51:30,736 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:51:30,822 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:51:30,948 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:51:30,948 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:51:33,233 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:51:33,468 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:51:33,469 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:51:34,350 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:51:34,352 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:51:34,353 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:51:34,399 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7631-90-5 in the Search field to filter the contaminants
+12-Nov-2021-13:51:34,592 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:51:34,593 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:51:51,758 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:51:51,908 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:51:51,909 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:51:52,024 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:51:52,025 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:51:56,621 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:51:56,622 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:51:56,623 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:51:57,790 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:51:57,840 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 14 but was 17
+12-Nov-2021-13:51:57,841 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:52:02,616 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 14 but was 17.......Dumping result to the Result Excel File
+12-Nov-2021-13:52:02,619 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:52:02,619 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:52:25,850 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:52:25,852 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:52:30,009 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:52:30,104 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:52:30,218 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:52:30,219 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:52:32,488 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:52:32,782 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:52:32,783 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:52:33,678 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:52:33,679 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:52:33,679 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:52:33,727 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 76-03-9 in the Search field to filter the contaminants
+12-Nov-2021-13:52:33,869 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:52:33,871 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:52:59,510 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+12-Nov-2021-13:52:59,511 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:53:04,207 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+12-Nov-2021-13:53:04,213 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:53:04,219 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:53:27,521 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:53:27,523 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:53:31,678 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:53:31,758 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:53:31,887 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:53:31,887 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:53:33,816 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:53:34,062 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:53:34,062 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:53:34,956 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:53:34,958 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:53:34,960 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:53:35,003 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 64-19-7 in the Search field to filter the contaminants
+12-Nov-2021-13:53:35,192 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:53:35,192 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:53:52,696 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:53:52,846 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:53:52,847 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:53:53,009 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:53:53,009 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:54:17,172 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //div[@class='radioGroup-caption'] not found or no contaminates may be present in the webapplication.
+12-Nov-2021-13:54:17,173 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:54:21,791 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //div[@class='radioGroup-caption'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+12-Nov-2021-13:54:21,796 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:54:21,802 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:54:45,038 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:54:45,040 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:54:49,285 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:54:49,354 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:54:49,480 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:54:49,480 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:54:51,499 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:54:51,765 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:54:51,766 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:54:52,682 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:54:52,682 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:54:52,683 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:54:52,738 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 79-21-0 in the Search field to filter the contaminants
+12-Nov-2021-13:54:52,892 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:54:52,893 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:55:11,385 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:55:11,515 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:55:11,516 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:55:11,638 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:55:11,639 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:55:21,081 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:55:21,082 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:55:21,082 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:55:22,241 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:55:22,268 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 17 but was 87
+12-Nov-2021-13:55:22,269 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:55:27,185 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 17 but was 87.......Dumping result to the Result Excel File
+12-Nov-2021-13:55:27,189 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:55:27,189 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:55:52,420 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:55:52,421 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:55:56,581 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:55:56,645 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:55:56,769 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:55:56,769 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:55:58,729 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:55:59,029 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:55:59,029 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:55:59,879 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:55:59,880 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:55:59,881 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:55:59,916 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 50-00-0 in the Search field to filter the contaminants
+12-Nov-2021-13:56:00,081 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:56:00,082 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:56:17,234 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:56:17,371 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:56:17,372 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:56:17,484 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:56:17,486 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:56:22,354 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:56:22,354 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:56:22,355 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:56:23,507 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:56:23,574 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 5 but was 14
+12-Nov-2021-13:56:23,575 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:56:28,960 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 5 but was 14.......Dumping result to the Result Excel File
+12-Nov-2021-13:56:28,961 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:56:28,962 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:56:52,800 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:56:52,802 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:56:56,950 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:56:57,053 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:56:57,204 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:56:57,204 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:56:59,133 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:56:59,348 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:56:59,349 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:57:00,807 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:57:00,808 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:57:00,810 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:57:00,846 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 50-00-0 in the Search field to filter the contaminants
+12-Nov-2021-13:57:00,962 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:57:00,963 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:57:17,999 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:57:18,130 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:57:18,131 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:57:18,243 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:57:18,244 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:57:27,155 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element (//label[@class='radioGroup-item-label' and text()='Oui'])[1]
+12-Nov-2021-13:57:27,312 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:57:27,312 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:57:28,515 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:57:28,567 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 14 but was 25
+12-Nov-2021-13:57:28,568 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:57:34,538 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 14 but was 25.......Dumping result to the Result Excel File
+12-Nov-2021-13:57:34,543 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:57:34,548 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:57:56,852 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:57:56,854 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:58:00,999 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:58:01,101 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:58:01,221 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:58:01,222 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:58:03,452 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:58:03,706 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:58:03,706 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:58:04,622 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:58:04,623 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:58:04,626 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:58:04,669 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7664-41-7 in the Search field to filter the contaminants
+12-Nov-2021-13:58:04,806 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:58:04,807 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:58:22,255 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-13:58:22,393 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:58:22,393 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-13:58:22,509 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:58:22,510 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-13:58:26,759 [SelectFrance.Helpers.SupportingFunctions] [INFO] [SelectGasQuestion] - Gas Value is null
+12-Nov-2021-13:58:26,759 [SelectFrance.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+12-Nov-2021-13:58:26,760 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Terminé')]
+12-Nov-2021-13:58:27,919 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:58:27,964 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 5 but was 7
+12-Nov-2021-13:58:27,965 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:58:34,144 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 5 but was 7.......Dumping result to the Result Excel File
+12-Nov-2021-13:58:34,149 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:58:34,151 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:58:57,098 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:58:57,099 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-13:59:01,258 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-13:59:01,360 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-13:59:01,493 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:59:01,494 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-13:59:04,249 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-13:59:04,576 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-13:59:04,576 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-13:59:06,011 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-13:59:06,012 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:59:06,013 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-13:59:06,057 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 12125-02-9 in the Search field to filter the contaminants
+12-Nov-2021-13:59:06,181 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:59:06,182 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-13:59:31,433 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+12-Nov-2021-13:59:31,434 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-13:59:35,868 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+12-Nov-2021-13:59:35,875 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+12-Nov-2021-13:59:35,879 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+12-Nov-2021-13:59:58,539 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-13:59:58,540 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as France
+12-Nov-2021-14:00:02,707 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+12-Nov-2021-14:00:02,833 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+12-Nov-2021-14:00:03,022 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-14:00:03,023 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+12-Nov-2021-14:00:05,271 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+12-Nov-2021-14:00:05,488 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+12-Nov-2021-14:00:05,489 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Non')]
+12-Nov-2021-14:00:06,334 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+12-Nov-2021-14:00:06,335 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-14:00:06,335 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+12-Nov-2021-14:00:06,373 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7439-97-6 in the Search field to filter the contaminants
+12-Nov-2021-14:00:06,517 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-14:00:06,518 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+12-Nov-2021-14:00:24,065 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+12-Nov-2021-14:00:24,203 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-14:00:24,203 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+12-Nov-2021-14:00:24,318 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+12-Nov-2021-14:00:24,319 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+12-Nov-2021-14:00:48,490 [SelectFrance.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //div[@class='radioGroup-caption'] not found or no contaminates may be present in the webapplication.
+12-Nov-2021-14:00:48,491 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+12-Nov-2021-14:00:54,746 [SelectFrance.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //div[@class='radioGroup-caption'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+12-Nov-2021-14:00:54,762 [SelectFrance.Bindings.StepsHooks] [INFO] [TearDown] - Closing the Browser Instance........
+12-Nov-2021-14:00:55,973 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [QuitBrowsersInstance] - Successfully closed the browser instance....
+12-Nov-2021-14:00:56,224 [SelectFrance.Bindings.StepsHooks] [INFO] [TearDown] - Killing chromedriver process........
+12-Nov-2021-14:00:56,224 [SelectFrance.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Test Result File in email........
+12-Nov-2021-14:00:56,225 [SelectFrance.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Log File in email........

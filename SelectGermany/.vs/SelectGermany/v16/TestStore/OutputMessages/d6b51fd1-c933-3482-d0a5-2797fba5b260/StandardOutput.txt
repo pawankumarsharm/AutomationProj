@@ -1,0 +1,38 @@
+Given I have navigated to the SLS Website
+23-Nov-2021-10:36:22,669 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:36:22,670 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+Accept not visible.
+-> done: GermanySelectSteps.GivenIHaveNavigatedToTheSLSWebsite() (10.5s)
+23-Nov-2021-10:36:33,163 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+When I select the  Germany provided  and click on the next button
+23-Nov-2021-10:36:33,163 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:36:37,275 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:36:37,307 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+-> done: GermanySelectSteps.WhenISelectTheProvidedAndClickOnTheNextButton("Germany") (4.2s)
+23-Nov-2021-10:36:37,396 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+Then I select Cartidge/Filter check box and proceed further till data validation
+23-Nov-2021-10:36:37,397 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:36:38,189 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:36:38,405 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:36:38,405 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:36:39,700 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+-> done: GermanySelectSteps.ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation() (2.3s)
+23-Nov-2021-10:36:39,700 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+And I have 7664-93-9 and Schwefelsäure to filter the product and I filter the product
+23-Nov-2021-10:36:39,701 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:36:39,839 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7664-93-9 in the Search field to filter the contaminants
+-> done: GermanySelectSteps.ThenIHaveAndToFilterTheProductAndIFilterTheProduct("7664-93-9", "Schwefelsäure") (0.4s)
+23-Nov-2021-10:36:40,151 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+Then I select the filtered products using the Cas 7664-93-9 or the Contaminants Value Schwefelsäure
+23-Nov-2021-10:36:40,152 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+-> error: The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+23-Nov-2021-10:37:05,333 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+23-Nov-2021-10:37:05,333 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+SCREENSHOT[ file:///C:\Users\PAWAN KUMAR SHARMA\Source\Repos\SelectGermany\SelectGermany\\Screenshots\I select the filtered products using the Cas 7664-93-9 or the Contaminants Value Schwefelsäure.jpg ]SCREENSHOT
+And Click on the next button
+-> skipped because of previous errors
+Then I Filter the contaminants using the filter values ,,,,,7664-93-9 and
+-> skipped because of previous errors
+And I do the final validation of the elements with the serial no. 27 , 7664-93-9,Germany, and 23
+-> skipped because of previous errors
+23-Nov-2021-10:37:09,914 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File

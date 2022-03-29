@@ -1,0 +1,2 @@
+C:\Users\PAWAN KUMAR SHARMA\Source\Repos\SalemQA\SalemQA\obj\Debug\SalemQA.csprojAssemblyReference.cache
+C:\Users\PAWAN KUMAR SHARMA\Source\Repos\SalemQA\SalemQA\obj\Debug\SalemQA.csproj.CoreCompileInputs.cache

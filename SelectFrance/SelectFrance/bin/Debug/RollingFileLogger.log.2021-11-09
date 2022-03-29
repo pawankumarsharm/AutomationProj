@@ -1,0 +1,11 @@
+09-Nov-2021-17:43:29,685 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+09-Nov-2021-17:43:29,763 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+09-Nov-2021-17:43:38,555 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+09-Nov-2021-17:43:38,710 [SelectFrance.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+09-Nov-2021-17:44:31,039 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+09-Nov-2021-17:44:51,842 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Spain
+09-Nov-2021-17:45:13,850 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+09-Nov-2021-17:45:20,155 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+09-Nov-2021-17:45:24,519 [SelectFrance.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+09-Nov-2021-17:45:27,199 [SelectFrance.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+09-Nov-2021-17:45:32,668 [SelectFrance.StepsDefination.SelectFranceSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section

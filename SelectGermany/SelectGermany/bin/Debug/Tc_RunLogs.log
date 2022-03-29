@@ -1,0 +1,1212 @@
+23-Nov-2021-00:11:47,825 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-00:11:48,090 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+23-Nov-2021-00:11:51,880 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+23-Nov-2021-00:11:52,026 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-00:12:19,442 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:12:19,623 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-00:23:58,955 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-00:23:59,059 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+23-Nov-2021-00:24:01,663 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+23-Nov-2021-00:24:01,798 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-00:24:58,087 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:24:58,239 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-00:24:58,296 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-00:24:59,629 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - element click intercepted: Element <button type="button" class="btn btn_primary" disabled="">...</button> is not clickable at point (1071, 668). Other element would receive the click: <div class="actionBar-btnGroup-right">...</div>
+  (Session info: chrome=96.0.4664.45)
+23-Nov-2021-00:24:59,630 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-00:25:05,996 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is element click intercepted: Element <button type="button" class="btn btn_primary" disabled="">...</button> is not clickable at point (1071, 668). Other element would receive the click: <div class="actionBar-btnGroup-right">...</div>
+  (Session info: chrome=96.0.4664.45).......Dumping result to the Result Excel File
+23-Nov-2021-00:25:06,020 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Closing the Browser Instance........
+23-Nov-2021-00:25:07,925 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [QuitBrowsersInstance] - Successfully closed the browser instance....
+23-Nov-2021-00:25:08,443 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Killing chromedriver process........
+23-Nov-2021-00:25:08,444 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Test Result File in email........
+23-Nov-2021-00:25:08,444 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Log File in email........
+23-Nov-2021-00:26:39,583 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-00:26:39,934 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+23-Nov-2021-00:26:42,837 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+23-Nov-2021-00:26:42,965 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-00:27:38,617 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:33:06,898 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-00:33:07,307 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+23-Nov-2021-00:33:11,591 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+23-Nov-2021-00:33:11,721 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-00:34:07,676 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:35:42,273 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-00:35:42,457 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+23-Nov-2021-00:35:44,965 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+23-Nov-2021-00:35:45,114 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-00:36:40,778 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:36:56,214 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-00:38:34,199 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-00:38:34,385 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+23-Nov-2021-00:38:36,865 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+23-Nov-2021-00:38:37,645 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-00:39:34,004 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:39:41,901 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-00:39:51,290 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-00:39:51,332 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-00:39:51,451 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:39:53,932 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-00:40:02,630 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-00:40:03,060 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-00:40:03,061 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-00:40:04,595 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-00:40:04,596 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:40:04,598 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-00:40:04,630 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 1332-21-4 in the Search field to filter the contaminants
+23-Nov-2021-00:40:05,394 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:40:05,396 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-00:40:55,384 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+23-Nov-2021-00:40:55,385 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-00:41:13,715 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+23-Nov-2021-00:41:13,733 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Closing the Browser Instance........
+23-Nov-2021-00:41:14,502 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [QuitBrowsersInstance] - Successfully closed the browser instance....
+23-Nov-2021-00:41:14,791 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Killing chromedriver process........
+23-Nov-2021-00:41:14,792 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Test Result File in email........
+23-Nov-2021-00:41:14,793 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Log File in email........
+23-Nov-2021-00:42:31,418 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-00:42:31,511 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+23-Nov-2021-00:42:35,424 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+23-Nov-2021-00:42:35,554 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-00:43:25,823 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:43:25,834 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-00:43:29,958 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-00:43:30,028 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-00:43:30,153 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:43:30,155 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-00:43:41,073 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-00:43:41,319 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-00:43:41,320 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-00:43:43,093 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-00:43:43,094 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:43:43,099 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-00:43:43,136 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-41-4 in the Search field to filter the contaminants
+23-Nov-2021-00:43:43,278 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:43:43,280 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-00:43:52,275 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-00:43:52,397 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:43:52,399 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-00:43:52,511 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:43:52,647 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-00:43:55,816 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-00:43:55,818 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-00:43:57,003 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-00:44:05,992 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 24 but was 0
+23-Nov-2021-00:44:05,995 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-00:44:13,054 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 24 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-00:44:13,079 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Closing the Browser Instance........
+23-Nov-2021-00:44:13,562 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [QuitBrowsersInstance] - Successfully closed the browser instance....
+23-Nov-2021-00:44:13,886 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Killing chromedriver process........
+23-Nov-2021-00:44:13,887 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Test Result File in email........
+23-Nov-2021-00:44:13,888 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Log File in email........
+23-Nov-2021-09:57:12,231 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-09:57:12,653 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+23-Nov-2021-09:57:17,430 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+23-Nov-2021-09:57:17,746 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-09:57:23,975 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-09:57:23,982 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-09:57:28,149 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-09:57:28,197 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-09:57:28,486 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-09:57:28,488 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-09:57:30,135 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-09:57:30,468 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-09:57:30,468 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-09:57:31,686 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-09:57:31,686 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-09:57:31,689 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-09:57:31,856 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 1332-21-4 in the Search field to filter the contaminants
+23-Nov-2021-09:57:32,084 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-09:57:32,086 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-09:57:57,252 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+23-Nov-2021-09:57:57,253 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-09:58:02,222 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+23-Nov-2021-09:58:02,283 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Closing the Browser Instance........
+23-Nov-2021-09:58:05,698 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [QuitBrowsersInstance] - Successfully closed the browser instance....
+23-Nov-2021-09:58:05,903 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Killing chromedriver process........
+23-Nov-2021-09:58:05,904 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Test Result File in email........
+23-Nov-2021-09:58:05,904 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Log File in email........
+23-Nov-2021-09:58:39,043 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-09:58:39,147 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+23-Nov-2021-09:58:42,713 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+23-Nov-2021-09:58:42,990 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-09:58:48,817 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-09:58:48,823 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-09:58:52,903 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-09:58:52,988 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-09:58:53,163 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-09:58:53,165 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-09:58:54,624 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-09:58:55,008 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-09:58:55,009 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-09:58:56,286 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-09:58:56,286 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-09:58:56,289 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-09:58:56,327 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-41-4 in the Search field to filter the contaminants
+23-Nov-2021-09:58:56,562 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-09:58:56,564 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-09:58:57,688 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-09:58:57,853 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-09:58:57,854 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-09:58:58,010 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-09:58:58,014 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-09:59:04,812 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-09:59:04,813 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-09:59:05,974 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-09:59:14,028 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 24 but was 0
+23-Nov-2021-09:59:14,029 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-09:59:18,678 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 24 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-09:59:18,717 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Closing the Browser Instance........
+23-Nov-2021-09:59:21,555 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [QuitBrowsersInstance] - Successfully closed the browser instance....
+23-Nov-2021-09:59:21,696 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Killing chromedriver process........
+23-Nov-2021-09:59:21,697 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Test Result File in email........
+23-Nov-2021-09:59:21,697 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Log File in email........
+23-Nov-2021-10:18:13,782 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:18:13,868 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+23-Nov-2021-10:18:16,951 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+23-Nov-2021-10:18:17,247 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:18:23,240 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:18:23,246 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:18:27,338 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:18:27,386 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:18:27,558 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:18:27,560 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:18:29,035 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:18:29,421 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:18:29,421 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:18:30,705 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:18:30,706 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:18:30,708 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:18:30,751 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-21-0 in the Search field to filter the contaminants
+23-Nov-2021-10:18:30,993 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:18:30,995 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:18:32,204 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:18:32,370 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:18:32,372 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:18:32,531 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:18:32,535 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:18:39,573 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:18:39,574 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:18:40,688 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:18:40,711 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 19 but was 9
+23-Nov-2021-10:18:40,711 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:18:45,504 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 19 but was 9.......Dumping result to the Result Excel File
+23-Nov-2021-10:18:45,557 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Closing the Browser Instance........
+23-Nov-2021-10:18:47,709 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [QuitBrowsersInstance] - Successfully closed the browser instance....
+23-Nov-2021-10:18:47,909 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Killing chromedriver process........
+23-Nov-2021-10:18:47,910 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Test Result File in email........
+23-Nov-2021-10:18:47,910 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Log File in email........
+23-Nov-2021-10:19:26,715 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:19:26,814 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+23-Nov-2021-10:19:30,855 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+23-Nov-2021-10:19:31,081 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:19:36,399 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:19:36,408 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:19:40,504 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:19:40,568 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:19:40,740 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:19:40,742 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:19:42,326 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:19:42,765 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:19:42,765 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:19:43,921 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:19:43,923 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:19:43,925 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:19:43,974 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 10024-97-2 in the Search field to filter the contaminants
+23-Nov-2021-10:19:44,209 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:19:44,211 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:19:45,410 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:19:45,584 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:19:45,586 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:19:45,726 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:19:45,740 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - 3M hat keinen geeigneten Filter für einen oder mehrere der angegebenen Schadstoffe. Alternativ kann umluftunabhängiger Atemschutz, je nach Schutzfaktor des gewählten Atemschutzgeräts, geeignet sein, um einen ausreichenden Schutz zu erreichen. Weitere Informationen finden Sie unter „Ressourcen” unten oder unter +49 (0)2131 88 19 265 in Deutschland, +43 1417 00 52 in Österreich, +41 4350 896 58 in der Schweiz.
+23-Nov-2021-10:19:45,742 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - No filters available for one or more of your contaminants
+23-Nov-2021-10:19:45,742 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - No filters available for one or more of your contaminants
+23-Nov-2021-10:19:46,749 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:19:46,754 [SelectGermany.Helpers.CartidgeValidation] [INFO] [ValidateListItems] - 3M does not have appropriate filters for one or more of your contaminants
+23-Nov-2021-10:19:46,755 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='noResults-message']
+23-Nov-2021-10:19:47,267 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] -   Expected string length 32 but was 411. Strings differ at index 0.
+  Expected: " +41 4350 896 58 in der Schweiz."
+  But was:  "3M hat keinen geeigneten Filter für einen oder mehrere der an..."
+  -----------^
+
+23-Nov-2021-10:19:47,267 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:19:51,863 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is   Expected string length 32 but was 411. Strings differ at index 0.
+  Expected: " +41 4350 896 58 in der Schweiz."
+  But was:  "3M hat keinen geeigneten Filter für einen oder mehrere der an..."
+  -----------^
+.......Dumping result to the Result Excel File
+23-Nov-2021-10:19:51,947 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:19:51,948 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:20:01,393 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:20:01,394 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:20:05,497 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:20:05,548 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:20:05,678 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:20:05,679 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:20:06,476 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:20:06,696 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:20:06,696 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:20:07,817 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:20:07,818 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:20:07,819 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:20:07,840 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-21-0 in the Search field to filter the contaminants
+23-Nov-2021-10:20:07,997 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:20:07,998 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:20:09,179 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:20:09,341 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:20:09,342 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:20:09,494 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:20:09,495 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:20:14,882 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:20:14,883 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:20:16,032 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:20:16,049 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 19 but was 9
+23-Nov-2021-10:20:16,050 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:20:20,616 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 19 but was 9.......Dumping result to the Result Excel File
+23-Nov-2021-10:20:20,642 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:20:20,643 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:20:31,709 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:20:31,710 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:20:35,895 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:20:35,930 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:20:36,144 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:20:36,145 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:20:36,998 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:20:37,397 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:20:37,398 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:20:38,605 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:20:38,606 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:20:38,607 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:20:38,643 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-21-0 in the Search field to filter the contaminants
+23-Nov-2021-10:20:38,830 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:20:38,831 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:20:39,797 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:20:40,009 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:20:40,010 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:20:40,113 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:20:40,114 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:20:53,029 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:20:53,121 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+23-Nov-2021-10:20:56,234 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+23-Nov-2021-10:20:56,467 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:21:02,603 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:02,611 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:21:06,703 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:21:06,754 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:21:06,904 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:06,906 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:21:08,554 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:21:09,006 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:21:09,007 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:21:09,728 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:21:09,729 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:09,731 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:21:09,796 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 10024-97-2 in the Search field to filter the contaminants
+23-Nov-2021-10:21:10,139 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:10,142 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:21:11,711 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:21:11,884 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:11,886 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:21:12,040 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:12,054 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - 3M hat keinen geeigneten Filter für einen oder mehrere der angegebenen Schadstoffe. Alternativ kann umluftunabhängiger Atemschutz, je nach Schutzfaktor des gewählten Atemschutzgeräts, geeignet sein, um einen ausreichenden Schutz zu erreichen. Weitere Informationen finden Sie unter „Ressourcen” unten oder unter +49 (0)2131 88 19 265 in Deutschland, +43 1417 00 52 in Österreich, +41 4350 896 58 in der Schweiz.
+23-Nov-2021-10:21:12,055 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - No filters available for one or more of your contaminants
+23-Nov-2021-10:21:12,056 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - No filters available for one or more of your contaminants
+23-Nov-2021-10:21:13,057 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:13,063 [SelectGermany.Helpers.CartidgeValidation] [INFO] [ValidateListItems] - 3M does not have appropriate filters for one or more of your contaminants
+23-Nov-2021-10:21:13,064 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='noResults-message']
+23-Nov-2021-10:21:13,205 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] -   Expected string length 32 but was 411. Strings differ at index 0.
+  Expected: " +41 4350 896 58 in der Schweiz."
+  But was:  "3M hat keinen geeigneten Filter für einen oder mehrere der an..."
+  -----------^
+
+23-Nov-2021-10:21:13,206 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:21:17,755 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is   Expected string length 32 but was 411. Strings differ at index 0.
+  Expected: " +41 4350 896 58 in der Schweiz."
+  But was:  "3M hat keinen geeigneten Filter für einen oder mehrere der an..."
+  -----------^
+.......Dumping result to the Result Excel File
+23-Nov-2021-10:21:17,846 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:21:17,846 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:21:29,313 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:29,314 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:21:33,507 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:21:33,575 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:21:33,695 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:33,695 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:21:34,527 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:21:34,930 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:21:34,931 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:21:36,044 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:21:36,044 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:36,045 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:21:36,073 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-21-0 in the Search field to filter the contaminants
+23-Nov-2021-10:21:36,235 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:36,236 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:21:37,514 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:21:37,655 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:37,656 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:21:37,806 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:37,807 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:21:41,480 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:21:41,481 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:21:42,876 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:42,895 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 19 but was 9
+23-Nov-2021-10:21:42,895 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:21:47,404 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 19 but was 9.......Dumping result to the Result Excel File
+23-Nov-2021-10:21:47,429 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:21:47,429 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:21:58,415 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:21:58,415 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:22:02,529 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:22:02,557 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:22:02,693 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:02,694 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:22:03,464 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:22:03,654 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:22:03,655 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:22:04,379 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:22:04,380 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:04,380 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:22:04,411 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-21-0 in the Search field to filter the contaminants
+23-Nov-2021-10:22:04,542 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:04,543 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:22:06,010 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:22:06,120 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:06,121 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:22:06,322 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:06,323 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:22:09,560 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:22:09,561 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:22:10,825 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:10,829 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Input string was not in a correct format.
+23-Nov-2021-10:22:10,829 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:22:14,960 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Input string was not in a correct format........Dumping result to the Result Excel File
+23-Nov-2021-10:22:15,000 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:22:15,001 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:22:26,368 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:26,369 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:22:30,571 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:22:30,598 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:22:30,693 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:30,694 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:22:32,925 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:22:33,265 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:22:33,265 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:22:34,438 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:22:34,439 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:34,441 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:22:34,593 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-21-0 in the Search field to filter the contaminants
+23-Nov-2021-10:22:34,788 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:34,789 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:22:35,545 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:22:35,663 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:35,664 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:22:35,760 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:35,761 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:22:39,052 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:22:39,053 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:22:40,235 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:40,252 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 19 but was 9
+23-Nov-2021-10:22:40,253 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:22:44,617 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 19 but was 9.......Dumping result to the Result Excel File
+23-Nov-2021-10:22:44,652 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:22:44,652 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:22:55,210 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:55,211 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:22:59,321 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:22:59,341 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:22:59,434 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:22:59,435 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:23:00,330 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:23:00,536 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:23:00,537 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:23:01,759 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:23:01,760 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:23:01,761 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:23:01,780 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-21-0 in the Search field to filter the contaminants
+23-Nov-2021-10:23:02,011 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:23:02,012 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:23:02,768 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:23:02,953 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:23:02,954 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:23:03,143 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:23:03,144 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:23:06,445 [SelectGermany.Helpers.SupportingFunctions] [INFO] [SelectRespiratorType] - Setting the value of Respirator as Disposable
+23-Nov-2021-10:23:14,452 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Disposable']"}
+  (Session info: chrome=96.0.4664.45)
+23-Nov-2021-10:23:14,453 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:23:18,820 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Disposable']"}
+  (Session info: chrome=96.0.4664.45).......Dumping result to the Result Excel File
+23-Nov-2021-10:23:18,860 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:23:18,860 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:23:31,436 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:23:31,437 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:23:35,530 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:23:35,554 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:23:35,646 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:23:35,647 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:23:36,456 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:23:36,636 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:23:36,637 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:23:37,889 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:23:37,890 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:23:37,891 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:23:37,951 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-21-0 in the Search field to filter the contaminants
+23-Nov-2021-10:23:38,144 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:23:38,145 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:23:38,865 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:23:38,979 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:23:38,980 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:23:39,076 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:23:39,077 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:23:52,154 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Reusable']"}
+  (Session info: chrome=96.0.4664.45)
+23-Nov-2021-10:23:52,154 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:23:56,624 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Reusable']"}
+  (Session info: chrome=96.0.4664.45).......Dumping result to the Result Excel File
+23-Nov-2021-10:23:56,647 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:23:56,647 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:24:07,081 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:24:07,081 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:24:11,187 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:24:11,233 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:24:11,405 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:24:11,406 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:24:12,242 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:24:12,446 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:24:12,447 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:24:13,591 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:24:13,592 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:24:13,592 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:24:13,621 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-21-0 in the Search field to filter the contaminants
+23-Nov-2021-10:24:13,765 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:24:13,766 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:24:14,967 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:24:15,080 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:24:15,081 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:24:15,216 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:24:15,216 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:24:23,176 [SelectGermany.Helpers.SupportingFunctions] [INFO] [SelectRespiratorType] - Setting the value of Respirator as PARP
+23-Nov-2021-10:24:31,222 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='PAPR']"}
+  (Session info: chrome=96.0.4664.45)
+23-Nov-2021-10:24:31,223 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:24:35,673 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='PAPR']"}
+  (Session info: chrome=96.0.4664.45).......Dumping result to the Result Excel File
+23-Nov-2021-10:24:35,699 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:24:35,699 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:24:46,310 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:24:46,310 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:24:50,423 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:24:50,454 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:24:50,644 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:24:50,645 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:24:51,339 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:24:51,581 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:24:51,582 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:24:52,748 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:24:52,749 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:24:52,750 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:24:52,850 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 1332-21-4 in the Search field to filter the contaminants
+23-Nov-2021-10:24:53,023 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:24:53,024 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:25:18,111 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+23-Nov-2021-10:25:18,111 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:25:22,290 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+23-Nov-2021-10:25:22,338 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:25:22,339 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:25:33,097 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:25:33,098 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:25:37,205 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:25:37,262 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:25:37,390 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:25:37,391 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:25:38,385 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:25:38,572 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:25:38,573 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:25:39,704 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:25:39,705 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:25:39,706 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:25:39,738 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 1332-21-4 in the Search field to filter the contaminants
+23-Nov-2021-10:25:39,884 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:25:39,885 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:26:05,039 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+23-Nov-2021-10:26:05,040 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:26:09,226 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+23-Nov-2021-10:26:09,249 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:26:09,250 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:26:20,323 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:26:20,323 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:26:24,445 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:26:24,474 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:26:24,562 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:26:24,563 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:26:25,385 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:26:25,585 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:26:25,585 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:26:26,457 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:26:26,458 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:26:26,459 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:26:26,571 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 1332-21-4 in the Search field to filter the contaminants
+23-Nov-2021-10:26:26,741 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:26:26,742 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:26:51,882 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+23-Nov-2021-10:26:51,882 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:26:56,101 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+23-Nov-2021-10:26:56,133 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:26:56,134 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:27:06,619 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:27:06,620 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:27:10,735 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:27:10,770 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:27:10,866 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:27:10,867 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:27:11,737 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:27:12,017 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:27:12,018 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:27:13,261 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:27:13,262 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:27:13,262 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:27:13,326 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-41-4 in the Search field to filter the contaminants
+23-Nov-2021-10:27:13,511 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:27:13,512 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:27:16,017 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:27:16,127 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:27:16,129 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:27:16,230 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:27:16,231 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:27:19,490 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:27:19,490 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:27:20,637 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:27:28,668 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 24 but was 0
+23-Nov-2021-10:27:28,669 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:27:32,658 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 24 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-10:27:32,696 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:27:32,697 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:27:42,760 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:27:42,761 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:27:46,875 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:27:46,899 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:27:46,990 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:27:46,991 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:27:47,854 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:27:48,053 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:27:48,054 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:27:49,030 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:27:49,031 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:27:49,032 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:27:49,075 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-41-4 in the Search field to filter the contaminants
+23-Nov-2021-10:27:49,271 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:27:49,272 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:27:50,432 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:27:50,561 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:27:50,562 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:27:50,659 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:27:50,660 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:27:55,370 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:27:55,370 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:27:56,520 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:28:04,571 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 50 but was 0
+23-Nov-2021-10:28:04,572 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:28:08,788 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 50 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-10:28:08,814 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:28:08,815 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:28:20,011 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:28:20,012 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:28:24,122 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:28:24,144 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:28:24,230 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:28:24,231 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:28:25,115 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:28:25,363 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:28:25,364 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:28:26,470 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:28:26,471 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:28:26,471 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:28:26,492 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-41-4 in the Search field to filter the contaminants
+23-Nov-2021-10:28:26,638 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:28:26,639 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:28:28,043 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:28:28,153 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:28:28,154 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:28:28,261 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:28:28,262 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:28:42,937 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:28:42,937 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:28:44,068 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:28:52,110 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 24 but was 0
+23-Nov-2021-10:28:52,110 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:28:56,625 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 24 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-10:28:56,652 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:28:56,653 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:29:05,951 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:29:05,952 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:29:10,066 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:29:10,095 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:29:10,184 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:29:10,185 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:29:11,171 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:29:11,390 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:29:11,391 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:29:12,513 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:29:12,514 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:29:12,514 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:29:12,554 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-41-4 in the Search field to filter the contaminants
+23-Nov-2021-10:29:12,845 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:29:12,846 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:29:14,178 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:29:14,284 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:29:14,285 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:29:14,387 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:29:14,388 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:29:26,075 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Reusable']"}
+  (Session info: chrome=96.0.4664.45)
+23-Nov-2021-10:29:26,077 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:29:30,297 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='Reusable']"}
+  (Session info: chrome=96.0.4664.45).......Dumping result to the Result Excel File
+23-Nov-2021-10:29:30,332 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:29:30,332 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:29:41,309 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:29:41,310 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:29:45,489 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:29:45,512 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:29:45,660 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:29:45,661 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:29:46,514 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:29:46,770 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:29:46,770 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:29:48,009 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:29:48,010 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:29:48,010 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:29:48,035 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-41-4 in the Search field to filter the contaminants
+23-Nov-2021-10:29:48,186 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:29:48,187 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:29:49,438 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:29:49,581 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:29:49,582 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:29:49,680 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:29:49,681 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:29:52,842 [SelectGermany.Helpers.SupportingFunctions] [INFO] [SelectRespiratorType] - Setting the value of Respirator as PARP
+23-Nov-2021-10:30:00,858 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='PAPR']"}
+  (Session info: chrome=96.0.4664.45)
+23-Nov-2021-10:30:00,859 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:30:05,167 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is no such element: Unable to locate element: {"method":"xpath","selector":"//label[text()='PAPR']"}
+  (Session info: chrome=96.0.4664.45).......Dumping result to the Result Excel File
+23-Nov-2021-10:30:05,224 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:30:05,226 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:30:17,359 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:17,359 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:30:21,470 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:30:21,498 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:30:21,588 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:21,589 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:30:22,391 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:30:22,646 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:30:22,646 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:30:23,940 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:30:23,942 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:23,943 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:30:23,972 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 106-35-4 in the Search field to filter the contaminants
+23-Nov-2021-10:30:24,134 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:24,135 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:30:26,775 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:30:26,892 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:26,893 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:30:27,017 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:27,018 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:30:29,901 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:30:29,901 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:30:31,061 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:31,077 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 50 but was 1
+23-Nov-2021-10:30:31,077 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:30:35,385 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 50 but was 1.......Dumping result to the Result Excel File
+23-Nov-2021-10:30:35,411 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:30:35,414 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:30:46,247 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:46,248 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:30:50,351 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:30:50,402 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:30:50,533 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:50,534 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:30:51,344 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:30:51,544 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:30:51,544 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:30:52,696 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:30:52,697 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:52,698 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:30:52,724 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 101-14-4 in the Search field to filter the contaminants
+23-Nov-2021-10:30:52,886 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:52,887 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:30:53,722 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:30:53,843 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:53,844 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:30:53,956 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:53,957 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:30:56,938 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:30:56,939 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:30:58,125 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:30:58,140 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 30 but was 1
+23-Nov-2021-10:30:58,141 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:31:02,432 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 30 but was 1.......Dumping result to the Result Excel File
+23-Nov-2021-10:31:02,472 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:31:02,473 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:31:11,925 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:31:11,926 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:31:16,038 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:31:16,059 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:31:16,169 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:31:16,170 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:31:16,949 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:31:17,140 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:31:17,140 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:31:18,274 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:31:18,275 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:31:18,276 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:31:18,301 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 106-97-8 in the Search field to filter the contaminants
+23-Nov-2021-10:31:18,491 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:31:18,492 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:31:19,340 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:31:19,472 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:31:19,473 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:31:19,588 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:31:19,589 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:31:44,019 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //div[@class='radioGroup-caption'] not found or no contaminates may be present in the webapplication.
+23-Nov-2021-10:31:44,020 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:31:48,223 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //div[@class='radioGroup-caption'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+23-Nov-2021-10:31:48,244 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:31:48,245 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:31:59,419 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:31:59,420 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:32:03,531 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:32:03,557 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:32:03,712 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:32:03,713 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:32:04,492 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:32:04,766 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:32:04,766 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:32:05,951 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:32:05,952 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:32:05,952 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:32:05,985 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7664-39-3 in the Search field to filter the contaminants
+23-Nov-2021-10:32:06,172 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:32:06,173 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:32:07,175 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:32:07,336 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:32:07,337 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:32:07,439 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:32:07,440 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:32:11,791 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:32:11,792 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:32:13,045 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:32:13,059 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 18 but was 22
+23-Nov-2021-10:32:13,059 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:32:17,395 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 18 but was 22.......Dumping result to the Result Excel File
+23-Nov-2021-10:32:17,425 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:32:17,426 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:32:28,342 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:32:28,343 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:32:32,461 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:32:32,484 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:32:32,611 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:32:32,611 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:32:33,399 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:32:33,616 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:32:33,617 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:32:34,754 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:32:34,755 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:32:34,755 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:32:34,799 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 10049-04-4 in the Search field to filter the contaminants
+23-Nov-2021-10:32:35,118 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:32:35,119 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:32:35,984 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:32:36,099 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:32:36,100 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:32:36,202 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:32:36,203 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:32:38,698 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:32:38,699 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:32:39,808 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:32:47,823 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 14 but was 0
+23-Nov-2021-10:32:47,823 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:32:52,035 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 14 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-10:32:52,054 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:32:52,055 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:33:02,341 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:02,341 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:33:06,451 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:33:06,473 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:33:06,560 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:06,561 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:33:07,433 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:33:07,675 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:33:07,675 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:33:08,850 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:33:08,852 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:08,853 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:33:08,888 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 10025-87-3 in the Search field to filter the contaminants
+23-Nov-2021-10:33:09,111 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:09,112 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:33:09,872 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:33:09,999 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:10,000 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:33:10,129 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:10,130 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:33:12,577 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:33:12,578 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:33:13,763 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:13,777 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 27 but was 1
+23-Nov-2021-10:33:13,777 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:33:18,030 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 27 but was 1.......Dumping result to the Result Excel File
+23-Nov-2021-10:33:18,058 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:33:18,059 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:33:27,702 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:27,703 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:33:31,816 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:33:31,841 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:33:31,936 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:31,937 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:33:32,754 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:33:32,964 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:33:32,965 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:33:34,115 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:33:34,116 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:34,116 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:33:34,146 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 10026-13-8 in the Search field to filter the contaminants
+23-Nov-2021-10:33:34,311 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:34,312 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:33:37,084 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:33:37,208 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:37,209 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:33:37,309 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:37,310 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:33:39,788 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:33:39,790 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:33:41,040 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:41,054 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 28 but was 1
+23-Nov-2021-10:33:41,054 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:33:45,283 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 28 but was 1.......Dumping result to the Result Excel File
+23-Nov-2021-10:33:45,318 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:33:45,318 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:33:54,838 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:54,838 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:33:58,958 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:33:58,978 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:33:59,066 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:33:59,067 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:33:59,875 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:34:00,117 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:34:00,117 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:34:01,239 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:34:01,240 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:34:01,241 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:34:01,272 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 109-79-5 in the Search field to filter the contaminants
+23-Nov-2021-10:34:01,435 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:34:01,436 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:34:02,318 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:34:02,488 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:34:02,489 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:34:02,629 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:34:02,630 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:34:10,318 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:34:10,318 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:34:11,431 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:34:19,452 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 25 but was 0
+23-Nov-2021-10:34:19,453 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:34:23,616 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 25 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-10:34:23,649 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:34:23,650 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:34:34,579 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:34:34,579 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:34:38,709 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:34:38,741 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:34:38,839 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:34:38,840 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:34:39,703 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:34:39,969 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:34:39,970 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:34:41,207 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:34:41,208 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:34:41,209 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:34:41,252 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 55-63-0 in the Search field to filter the contaminants
+23-Nov-2021-10:34:41,398 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:34:41,399 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:34:42,083 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:34:42,202 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:34:42,203 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:34:42,331 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:34:42,332 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:34:44,737 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:34:44,737 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:34:45,895 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:34:53,931 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 25 but was 0
+23-Nov-2021-10:34:53,931 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:34:58,235 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 25 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-10:34:58,257 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:34:58,261 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:35:08,704 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:35:08,704 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:35:12,820 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:35:12,840 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:35:12,927 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:35:12,928 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:35:13,777 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:35:13,983 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:35:13,984 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:35:15,171 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:35:15,172 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:35:15,173 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:35:15,209 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-61-8 in the Search field to filter the contaminants
+23-Nov-2021-10:35:15,362 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:35:15,363 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:35:16,144 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:35:16,305 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:35:16,306 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:35:16,405 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:35:16,406 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:35:19,122 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:35:19,123 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:35:20,291 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:35:28,320 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 25 but was 0
+23-Nov-2021-10:35:28,321 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:35:32,531 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 25 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-10:35:32,577 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:35:32,578 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:35:43,991 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:35:43,992 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:35:48,146 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:35:48,167 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:35:48,284 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:35:48,285 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:35:49,121 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:35:49,315 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:35:49,316 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:35:50,460 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:35:50,461 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:35:50,461 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:35:50,498 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7647-01-0 in the Search field to filter the contaminants
+23-Nov-2021-10:35:50,695 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:35:50,697 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:35:51,519 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:35:51,707 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:35:51,708 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:35:51,807 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:35:51,808 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:36:09,213 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:36:09,216 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:36:10,391 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:36:18,422 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 11 but was 0
+23-Nov-2021-10:36:18,422 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:36:22,652 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 11 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-10:36:22,669 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:36:22,670 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:36:33,163 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:36:33,163 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:36:37,275 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:36:37,307 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:36:37,396 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:36:37,397 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:36:38,189 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:36:38,405 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:36:38,405 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:36:39,700 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:36:39,700 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:36:39,701 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:36:39,839 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7664-93-9 in the Search field to filter the contaminants
+23-Nov-2021-10:36:40,151 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:36:40,152 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:37:05,333 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+23-Nov-2021-10:37:05,333 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:37:09,914 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+23-Nov-2021-10:37:09,945 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:37:09,946 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:37:22,047 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:37:22,047 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:37:26,148 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:37:26,183 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:37:26,276 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:37:26,277 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:37:27,073 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:37:27,296 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:37:27,297 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:37:28,440 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:37:28,441 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:37:28,442 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:37:28,468 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 64-19-7 in the Search field to filter the contaminants
+23-Nov-2021-10:37:28,605 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:37:28,606 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:37:29,702 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:37:29,880 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:37:29,880 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:37:29,983 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:37:29,984 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:37:32,908 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:37:32,909 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:37:34,514 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:37:42,526 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 25 but was 0
+23-Nov-2021-10:37:42,527 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:37:46,870 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 25 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-10:37:46,918 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:37:46,919 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:37:57,819 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:37:57,819 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:38:02,001 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:38:02,026 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:38:02,117 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:38:02,118 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:38:02,951 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:38:03,164 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:38:03,165 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:38:04,445 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:38:04,446 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:38:04,447 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:38:04,475 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 64-18-6 in the Search field to filter the contaminants
+23-Nov-2021-10:38:04,597 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:38:04,598 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:38:05,568 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:38:05,676 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:38:05,677 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:38:05,773 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:38:05,774 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:38:08,363 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:38:08,364 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:38:09,540 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:38:17,546 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 14 but was 0
+23-Nov-2021-10:38:17,546 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:38:21,644 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 14 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-10:38:21,670 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:38:21,671 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:38:32,313 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:38:32,314 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:38:36,415 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:38:36,439 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:38:36,537 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:38:36,537 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:38:37,367 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:38:37,552 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:38:37,552 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:38:38,686 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:38:38,687 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:38:38,688 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:38:38,756 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 50-00-0 in the Search field to filter the contaminants
+23-Nov-2021-10:38:38,925 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:38:38,926 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:38:40,911 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:38:41,019 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:38:41,020 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:38:41,133 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:38:41,134 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:38:43,968 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:38:43,968 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:38:45,066 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:38:45,078 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 1 but was 5
+23-Nov-2021-10:38:45,079 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:38:49,519 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 1 but was 5.......Dumping result to the Result Excel File
+23-Nov-2021-10:38:49,538 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:38:49,539 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:39:00,274 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:00,275 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:39:04,424 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:39:04,446 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:39:04,540 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:04,541 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:39:05,346 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:39:05,525 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:39:05,526 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:39:06,662 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:39:06,662 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:06,663 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:39:06,688 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 50-00-0 in the Search field to filter the contaminants
+23-Nov-2021-10:39:06,839 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:06,840 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:39:08,880 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:39:08,992 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:08,994 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:39:09,184 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:09,185 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:39:13,222 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:39:13,222 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:39:14,393 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:14,403 [SelectGermany.Helpers.CartidgeValidation] [INFO] [ValidateListItems] - Elements number matched......Proceeding to match the elements
+23-Nov-2021-10:39:14,509 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:18,710 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - No Exception occured.......Dumping result to the Result Excel File
+23-Nov-2021-10:39:18,732 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:39:18,732 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:39:29,310 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:29,310 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:39:33,429 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:39:33,530 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:39:33,694 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:33,694 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:39:34,540 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:39:34,789 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:39:34,790 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:39:35,945 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:39:35,946 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:35,946 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:39:35,991 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 74-89-5 in the Search field to filter the contaminants
+23-Nov-2021-10:39:36,131 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:36,132 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:39:37,354 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:39:37,465 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:37,466 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:39:37,560 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:37,561 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:39:44,189 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:39:44,189 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:39:45,398 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:39:53,460 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 8 but was 0
+23-Nov-2021-10:39:53,461 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:39:57,911 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 8 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-10:39:57,929 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:39:57,930 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:40:08,971 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:40:08,972 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:40:13,090 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:40:13,124 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:40:13,248 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:40:13,248 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:40:14,010 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:40:14,303 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:40:14,303 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:40:15,476 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:40:15,477 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:40:15,477 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:40:15,516 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 74-89-5 in the Search field to filter the contaminants
+23-Nov-2021-10:40:15,649 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:40:15,650 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:40:16,680 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+23-Nov-2021-10:40:16,792 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:40:16,794 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+23-Nov-2021-10:40:16,890 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:40:16,891 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:40:20,595 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:40:20,595 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+23-Nov-2021-10:40:21,855 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:40:29,926 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 18 but was 0
+23-Nov-2021-10:40:29,926 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:40:34,223 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 18 but was 0.......Dumping result to the Result Excel File
+23-Nov-2021-10:40:34,272 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:40:34,273 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+23-Nov-2021-10:40:46,463 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:40:46,464 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:40:50,586 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:40:50,685 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+23-Nov-2021-10:40:50,836 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:40:50,837 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:40:52,691 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:40:52,979 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:40:52,981 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:40:54,145 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+23-Nov-2021-10:40:54,146 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:40:54,146 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:40:54,184 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 7439-97-6 in the Search field to filter the contaminants
+23-Nov-2021-10:40:54,335 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+23-Nov-2021-10:40:54,336 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:41:19,457 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+23-Nov-2021-10:41:19,457 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+23-Nov-2021-10:41:23,936 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File
+23-Nov-2021-10:41:23,973 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Closing the Browser Instance........
+23-Nov-2021-10:41:26,399 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [QuitBrowsersInstance] - Successfully closed the browser instance....
+23-Nov-2021-10:41:26,553 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Killing chromedriver process........
+23-Nov-2021-10:41:26,554 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Test Result File in email........
+23-Nov-2021-10:41:26,554 [SelectGermany.Bindings.StepsHooks] [INFO] [TearDown] - Successfully sent the Log File in email........

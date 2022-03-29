@@ -1,0 +1,15 @@
+08-Jul-2021-18:44:15,974 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+08-Jul-2021-18:44:16,047 [SelectCartridgeChile.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+08-Jul-2021-18:44:18,105 [SelectCartridgeChile.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+08-Jul-2021-18:44:18,259 [SelectCartridgeChile.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+08-Jul-2021-18:44:29,760 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+08-Jul-2021-18:44:29,785 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectTheProvidedAndClickOnTheNextButton] - Selected region as chile.
+08-Jul-2021-18:44:34,033 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+08-Jul-2021-18:44:34,134 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+08-Jul-2021-18:44:34,288 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+08-Jul-2021-18:44:34,290 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+08-Jul-2021-18:44:36,355 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+08-Jul-2021-18:44:36,644 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+08-Jul-2021-18:44:36,645 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'No')]
+08-Jul-2021-18:44:37,551 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+08-Jul-2021-18:44:37,552 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.

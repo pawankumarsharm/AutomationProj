@@ -1,0 +1,46 @@
+Given I have navigated to the SLS Website
+23-Nov-2021-10:34:58,257 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-10:34:58,261 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+Accept not visible.
+-> done: GermanySelectSteps.GivenIHaveNavigatedToTheSLSWebsite() (10.4s)
+23-Nov-2021-10:35:08,704 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+When I select the  Germany provided  and click on the next button
+23-Nov-2021-10:35:08,704 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-10:35:12,820 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-10:35:12,840 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+-> done: GermanySelectSteps.WhenISelectTheProvidedAndClickOnTheNextButton("Germany") (4.2s)
+23-Nov-2021-10:35:12,927 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+Then I select Cartidge/Filter check box and proceed further till data validation
+23-Nov-2021-10:35:12,928 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-10:35:13,777 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-10:35:13,983 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-10:35:13,984 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-10:35:15,171 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+-> done: GermanySelectSteps.ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation() (2.2s)
+23-Nov-2021-10:35:15,172 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+And I have 100-61-8 and Methylanilin to filter the product and I filter the product
+23-Nov-2021-10:35:15,173 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-10:35:15,209 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 100-61-8 in the Search field to filter the contaminants
+-> done: GermanySelectSteps.ThenIHaveAndToFilterTheProductAndIFilterTheProduct("100-61-8", "Methylanilin") (0.2s)
+23-Nov-2021-10:35:15,362 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+Then I select the filtered products using the Cas 100-61-8 or the Contaminants Value Methylanilin
+23-Nov-2021-10:35:15,363 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+23-Nov-2021-10:35:16,144 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+-> done: GermanySelectSteps.ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue("100-61-8", "Methylanilin") (0.9s)
+23-Nov-2021-10:35:16,305 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+And Click on the next button
+23-Nov-2021-10:35:16,306 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+-> done: GermanySelectSteps.ThenClickOnTheNextButton() (0.1s)
+23-Nov-2021-10:35:16,405 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+Then I Filter the contaminants using the filter values ,,,,,100-61-8 and
+23-Nov-2021-10:35:16,406 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='radioGroup-caption']
+23-Nov-2021-10:35:19,122 [SelectGermany.Helpers.SupportingFunctions] [INFO] [ClickDone] - Clicking on Done button after validating the Contaminants
+23-Nov-2021-10:35:19,123 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Fertig')]
+-> done: GermanySelectSteps.ThenIFilterTheContaminantsUsingTheFilterValuesAnd("", "", "", "", "", "100-61-8", "") (3.9s)
+23-Nov-2021-10:35:20,291 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+And I do the final validation of the elements with the serial no. 25 , 100-61-8,Germany, and 25
+-> error: Elements number mismatched... Expecting total number to be 25 but was 0
+23-Nov-2021-10:35:28,320 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - Elements number mismatched... Expecting total number to be 25 but was 0
+23-Nov-2021-10:35:28,321 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+SCREENSHOT[ file:///C:\Users\PAWAN KUMAR SHARMA\Source\Repos\SelectGermany\SelectGermany\\Screenshots\I do the final validation of the elements with the serial no.jpg ]SCREENSHOT
+23-Nov-2021-10:35:32,531 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is Elements number mismatched... Expecting total number to be 25 but was 0.......Dumping result to the Result Excel File

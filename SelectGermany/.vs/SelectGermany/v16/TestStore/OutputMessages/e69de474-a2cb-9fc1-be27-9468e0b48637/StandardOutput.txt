@@ -1,0 +1,39 @@
+Given I have navigated to the SLS Website
+23-Nov-2021-00:38:34,199 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+23-Nov-2021-00:38:34,385 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+23-Nov-2021-00:38:36,865 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+23-Nov-2021-00:38:37,645 [SelectGermany.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://slsdev.3m.com/
+-> done: GermanySelectSteps.GivenIHaveNavigatedToTheSLSWebsite() (60.0s)
+23-Nov-2021-00:39:34,004 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+When I select the  Germany provided  and click on the next button
+23-Nov-2021-00:39:41,901 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Selected region as Germany
+23-Nov-2021-00:39:51,290 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+23-Nov-2021-00:39:51,332 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [WhenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+-> done: GermanySelectSteps.WhenISelectTheProvidedAndClickOnTheNextButton("Germany") (17.4s)
+23-Nov-2021-00:39:51,451 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+Then I select Cartidge/Filter check box and proceed further till data validation
+23-Nov-2021-00:39:53,932 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+23-Nov-2021-00:40:02,630 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+23-Nov-2021-00:40:03,060 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+23-Nov-2021-00:40:03,061 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'Nein')]
+23-Nov-2021-00:40:04,595 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+-> done: GermanySelectSteps.ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation() (10.7s)
+23-Nov-2021-00:40:04,596 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+And I have 1332-21-4 and Asbest (300.000 - 4.000.000 Fasern/m3) to filter the product and I filter the product
+23-Nov-2021-00:40:04,598 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+23-Nov-2021-00:40:04,630 [SelectGermany.StepsDefination.GermanySelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 1332-21-4 in the Search field to filter the contaminants
+-> done: GermanySelectSteps.ThenIHaveAndToFilterTheProductAndIFilterTheProduct("1332-21-4", "Asbest (300.000 -...") (0.8s)
+23-Nov-2021-00:40:05,394 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+Then I select the filtered products using the Cas 1332-21-4 or the Contaminants Value Asbest (300.000 - 4.000.000 Fasern/m3)
+23-Nov-2021-00:40:05,396 [SelectGermany.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+-> error: The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+23-Nov-2021-00:40:55,384 [SelectGermany.Bindings.StepsHooks] [ERROR] [FetchTestResult] - The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication.
+23-Nov-2021-00:40:55,385 [SelectGermany.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+SCREENSHOT[ file:///C:\Users\DELL\source\repos\SelectGermany2\SelectGermany\\Screenshots\m3).jpg ]SCREENSHOT
+And Click on the next button
+-> skipped because of previous errors
+Then I Filter the contaminants using the filter values ,,,,,1332-21-4 and
+-> skipped because of previous errors
+And I do the final validation of the elements with the serial no. 10 , 1332-21-4,Germany, and 1
+-> skipped because of previous errors
+23-Nov-2021-00:41:13,715 [SelectGermany.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is The expected element //label[@class='inputBox-label'] not found or no contaminates may be present in the webapplication........Dumping result to the Result Excel File

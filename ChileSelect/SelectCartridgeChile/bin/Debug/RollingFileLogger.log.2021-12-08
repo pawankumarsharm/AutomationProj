@@ -1,0 +1,7 @@
+08-Dec-2021-07:56:05,784 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+08-Dec-2021-07:56:06,054 [SelectCartridgeChile.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+08-Dec-2021-07:56:10,129 [SelectCartridgeChile.Bindings.StepsHooks] [ERROR] [FetchTestResult] - session not created: This version of ChromeDriver only supports Chrome version 90
+Current browser version is 96.0.4664.93 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe (SessionNotCreated)
+08-Dec-2021-07:56:15,285 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [WriteStatus] - Exception occured Status= FAIL Exception is session not created: This version of ChromeDriver only supports Chrome version 90
+Current browser version is 96.0.4664.93 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe (SessionNotCreated).......Dumping result to the Result Excel File
+08-Dec-2021-07:56:15,306 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [TearDown] - Closing the Browser Instance........

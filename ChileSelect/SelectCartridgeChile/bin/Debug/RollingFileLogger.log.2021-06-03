@@ -1,0 +1,72 @@
+03-Jun-2021-12:53:48,330 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+03-Jun-2021-12:53:48,561 [SelectCartridgeChile.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Checking for the available browsers in the configuration file........Chrome...OK
+03-Jun-2021-12:53:51,764 [SelectCartridgeChile.BrowsersConfigs.BrowserConfigs] [INFO] [Init] - Maximizing the browser instance
+03-Jun-2021-12:53:51,959 [SelectCartridgeChile.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://rssl-dev.azurewebsites.net
+03-Jun-2021-12:53:58,902 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:53:58,911 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectTheProvidedAndClickOnTheNextButton] - Selected region as chile.
+03-Jun-2021-12:54:01,071 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+03-Jun-2021-12:54:01,118 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+03-Jun-2021-12:54:01,222 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:01,226 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+03-Jun-2021-12:54:03,723 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+03-Jun-2021-12:54:03,929 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+03-Jun-2021-12:54:03,930 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'No')]
+03-Jun-2021-12:54:05,413 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+03-Jun-2021-12:54:05,414 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:05,417 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+03-Jun-2021-12:54:05,461 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 67-56-1 in the Search field to filter the contaminants
+03-Jun-2021-12:54:05,613 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:05,615 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+03-Jun-2021-12:54:09,044 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+03-Jun-2021-12:54:09,129 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:09,132 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+03-Jun-2021-12:54:09,231 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:09,240 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - A 3M não possui um filtro apropriado para um ou mais contaminantes inseridos. Respiradores com suprimento de ar devem ser apropriados para ajudarem a reduzir a exposição dependendo do fator de proteção do respirador escolhido. Por favor veja os respiradores de suprimento de ar abaixo ou entre em contato com a 3M através do Fale com a 3M: 0800-013-2333 para maiores informações.
+03-Jun-2021-12:54:09,242 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - No filters available for one or more of your contaminants
+03-Jun-2021-12:54:09,242 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - No filters available for one or more of your contaminants
+03-Jun-2021-12:54:10,252 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:10,264 [SelectCartridgeChile.Helpers.CartidgeValidation] [INFO] [ValidateListItems] - 3M does not have appropriate filters for one or more of your contaminants
+03-Jun-2021-12:54:10,272 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='noResults-message']
+03-Jun-2021-12:54:11,330 [SelectCartridgeChile.Bindings.StepsHooks] [ERROR] [FetchTestResult] -   Expected string length 379 but was 326. Strings differ at index 0.
+  Expected: "A 3M não possui um filtro apropriado para um ou mais contamin..."
+  But was:  "3M no tiene un filtro apropiado para uno o más de sus contami..."
+  -----------^
+
+03-Jun-2021-12:54:11,331 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+03-Jun-2021-12:54:16,517 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+03-Jun-2021-12:54:16,518 [SelectCartridgeChile.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://rssl-dev.azurewebsites.net
+03-Jun-2021-12:54:20,649 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:20,651 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectTheProvidedAndClickOnTheNextButton] - Selected region as chile.
+03-Jun-2021-12:54:22,800 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[@class='btn btn_primary']
+03-Jun-2021-12:54:22,837 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectTheProvidedAndClickOnTheNextButton] - Clicking on next button after selecting the region
+03-Jun-2021-12:54:22,920 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:22,921 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='cartridgeAndFilterType']
+03-Jun-2021-12:54:24,019 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Selecting Cartidge/Filter Section
+03-Jun-2021-12:54:24,208 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Clicking on IAccept button after selecting Cartidge/Filter Section
+03-Jun-2021-12:54:24,209 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //button[contains(text(),'No')]
+03-Jun-2021-12:54:25,023 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectCartidgeFilterCheckBoxAndProceedFurtherTillDataValidation] - Is there a potential for oxygen deficiency, unknown environments, or contaminant concentrations that are immediately dangerous to life or health?
+03-Jun-2021-12:54:25,024 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:25,025 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //input[@id='search']
+03-Jun-2021-12:54:25,095 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenIHaveAndToFilterTheProductAndIFilterTheProduct] - Entering the value of CAS as 506-68-3 in the Search field to filter the contaminants
+03-Jun-2021-12:54:25,291 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:25,292 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //label[@class='inputBox-label']
+03-Jun-2021-12:54:28,258 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectTheFilteredProductsUsingTheCasOrTheContaminantsValue] - Selecting the filtered contaminant
+03-Jun-2021-12:54:28,337 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:28,338 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenClickOnTheNextButton] - Clicking on next button.
+03-Jun-2021-12:54:28,439 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:28,443 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - A 3M não possui um filtro apropriado para um ou mais contaminantes inseridos. Respiradores com suprimento de ar devem ser apropriados para ajudarem a reduzir a exposição dependendo do fator de proteção do respirador escolhido. Por favor veja os respiradores de suprimento de ar abaixo ou entre em contato com a 3M através do Fale com a 3M: 0800-013-2333 para maiores informações.
+03-Jun-2021-12:54:28,443 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - No filters available for one or more of your contaminants
+03-Jun-2021-12:54:28,444 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenIFilterTheContaminantsUsingTheFilterValuesAnd] - No filters available for one or more of your contaminants
+03-Jun-2021-12:54:29,458 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:29,460 [SelectCartridgeChile.Helpers.CartidgeValidation] [INFO] [ValidateListItems] - 3M does not have appropriate filters for one or more of your contaminants
+03-Jun-2021-12:54:29,461 [SelectCartridgeChile.Helpers.ExplicitWaits] [INFO] [WaitForAnElement] - Waiting for element //div[@class='noResults-message']
+03-Jun-2021-12:54:29,604 [SelectCartridgeChile.Bindings.StepsHooks] [ERROR] [FetchTestResult] -   Expected string length 379 but was 326. Strings differ at index 0.
+  Expected: "A 3M não possui um filtro apropriado para um ou mais contamin..."
+  But was:  "3M no tiene un filtro apropiado para uno o más de sus contami..."
+  -----------^
+
+03-Jun-2021-12:54:29,604 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - Exception occured.......Taking screenshots
+03-Jun-2021-12:54:34,450 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [GivenIHaveNavigatedToTheSLSWebsite] - Searching for Browser Type in App Config
+03-Jun-2021-12:54:34,451 [SelectCartridgeChile.BrowsersConfigs.BrowserConfigs] [INFO] [Goto] - Redirecting to the url...https://rssl-dev.azurewebsites.net
+03-Jun-2021-12:54:36,554 [SelectCartridgeChile.Bindings.StepsHooks] [INFO] [FetchTestResult] - No error occured.
+03-Jun-2021-12:54:36,555 [SelectCartridgeChile.StepsDefination.ChileSelectSteps] [INFO] [ThenISelectTheProvidedAndClickOnTheNextButton] - Selected region as chile.
